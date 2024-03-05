@@ -1,5 +1,5 @@
 {
-  "name": "notiom",
+  "name": "wdb-bootcamp-sp23",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
+    "@chakra-ui/react": "^2.2.1", 
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.9.0",
+    "framer-motion": "^6.3.0", 
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "next": "14.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
     "eslint-config-next": "14.1.0"
   }
 }
