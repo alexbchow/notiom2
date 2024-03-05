@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../components/navbar';
 import MainText from '../components/maintext';
+import NewNote from '../components/newnote';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from '../styles/theme'; // Make sure you have a theme file or use Chakra's default theme
 
@@ -15,7 +16,7 @@ export default function Home() {
 
       <Navbar />
       <MainText />
-
+      <NewNote/>
       {/* Your content here */}
     </ChakraProvider>
   );
