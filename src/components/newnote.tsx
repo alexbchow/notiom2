@@ -253,7 +253,7 @@ const NewDocument = () => {
 
   const handleSaveDocument = async () => {
     const bodyData = {
-      title: 'New Document', // Default title, consider allowing user input for this
+      title: 'New Document',
       body: currentText,
     };
 
